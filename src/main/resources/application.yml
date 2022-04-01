@@ -1,0 +1,33 @@
+spring:
+ data:
+  mongodb:
+      authentication-database:
+      username:
+      password:
+      database:
+      port:
+      host:
+
+de:
+  anmimi:
+    cors:
+      host:
+    headlines:
+      crawlingDelayInHours: 1
+      matchingWords:
+        - Atom
+        - Nuklear
+        - Europa
+        - USA
+        - Weltkrieg
+        - NATO
+        - Polen
+        - Poland
+        - Massenvernichtungswaffen
+        - Bombs
+        - Nuclear
+        - World War
+        - WW3
+        - Putin
+        - Biden
+        - Stoltenberg

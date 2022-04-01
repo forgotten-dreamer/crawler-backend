@@ -1,0 +1,26 @@
+spring:
+  data:
+    mongodb:
+      authentication-database:
+      username:
+      password:
+      database:
+      port:
+      host:
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: WARN
+    de:
+      anmimi:
+        headlines: DEBUG
+
+de:
+  anmimi:
+    cors:
+      host: "http://localhost:4200"
