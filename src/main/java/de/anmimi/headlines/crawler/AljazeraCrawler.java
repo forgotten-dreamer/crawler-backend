@@ -5,8 +5,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.stereotype.Component;
 
-@Component
 @RequiredArgsConstructor
+@Component
 public class AljazeraCrawler extends AbstractCrawler {
 
     private static final String ALJAZEERA_COM = "https://www.aljazeera.com";
